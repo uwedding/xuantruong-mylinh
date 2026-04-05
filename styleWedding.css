@@ -1,0 +1,643 @@
+@keyframes rain {
+  0% {
+    background-position: 0px 0px;
+  }
+
+  100% {
+    background-position: 500px 1000px;
+  }
+}
+
+@-webkit-keyframes rain {
+  0% {
+    background-position: 0px 0px;
+  }
+
+  100% {
+    background-position: 500px 1000px;
+  }
+}
+
+.effect-rain {
+  background-image: url("https://w.ladicdn.com/s450x400/6446a909ce8883001284c7a2/traitim-size2-20231213075433-pjmzq.png");
+  -webkit-animation: rain 2s linear infinite;
+  animation: rain 2s linear infinite;
+}
+
+@keyframes sparkle {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      -500px -1000px,
+      -400px -400px,
+      300px 300px;
+  }
+}
+
+@-webkit-keyframes sparkle {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      -500px -1000px,
+      -200px -400px,
+      300px 300px;
+  }
+}
+
+.effect-sparkle {
+  background-image:
+    url("https://w.ladicdn.com/s550x550/6446a909ce8883001284c7a2/sparkle1-20231210061725-zdcce.png"),
+    url("https://w.ladicdn.com/s550x550/6446a909ce8883001284c7a2/sparkle2-20231210061725-kp_vi.png");
+  -webkit-animation: sparkle 60s linear infinite;
+  animation: sparkle 60s linear infinite;
+}
+
+@keyframes glass {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      500px 1000px,
+      400px 400px;
+  }
+}
+
+@-webkit-keyframes glass {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      500px 1000px,
+      -400px -400px;
+  }
+}
+
+.effect-sliding-glass {
+  background-image:
+    url("../img/effects/glass1.png"), url("../img/effects/glass2.png");
+  -webkit-animation: glass 30s linear infinite;
+  animation: glass 30s linear infinite;
+}
+
+@keyframes confetti {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      500px 1000px,
+      400px 400px,
+      300px 300px;
+  }
+}
+
+@-webkit-keyframes confetti {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      500px 1000px,
+      400px 400px,
+      300px 300px;
+  }
+}
+
+.effect-confetti {
+  background-image:
+    url("../img/effects/confetti1.png"), url("../img/effects/confetti2.png");
+  -webkit-animation: confetti 10s linear infinite;
+  animation: confetti 10s linear infinite;
+}
+
+@keyframes snow {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      500px 1000px,
+      400px 400px,
+      300px 300px;
+  }
+}
+
+@-webkit-keyframes snow {
+  0% {
+    background-position:
+      0px 0px,
+      0px 0px,
+      0px 0px;
+  }
+
+  100% {
+    background-position:
+      500px 1000px,
+      400px 400px,
+      300px 300px;
+  }
+}
+
+.effect-snow {
+  background-image: url("https://w.ladicdn.com/s550x450/6446a909ce8883001284c7a2/traitim-size2-20231213080553-0bimd.png");
+  -webkit-animation: snow 40s linear infinite;
+  animation: snow 40s linear infinite;
+}
+
+.text-bank {
+  animation-name: fadeInDown;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  font-size: 22px;
+  color: rgb(97, 135, 104);
+  text-align: center;
+  align-items: center;
+  height: 200px;
+  display: flex;
+  padding: 20px;
+}
+
+#LINE26 > .ladi-line > .ladi-line-container {
+  border-right: 1px solid rgb(217, 217, 217);
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+#LINE26.ladi-animation > .ladi-line {
+  animation-name: bounceIn;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+/* #LINE26 {
+  opacity: 0 !important;
+  pointer-events: none !important;
+} */
+
+#GROUP184 {
+  top: 0px;
+  left: 0px;
+}
+
+#LINE27 > .ladi-line > .ladi-line-container {
+  border-right: 1px solid rgb(217, 217, 217);
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+#LINE27.ladi-animation > .ladi-line {
+  animation-name: bounceIn;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+/* #LINE27 {
+  opacity: 0 !important;
+  pointer-events: none !important;
+} */
+
+#IMAGE1191.ladi-animation > .ladi-image {
+  animation-name: swing;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#IMAGE1191 {
+  width: 63.1387px;
+  height: 53.5792px;
+}
+
+#IMAGE1191 > .ladi-image > .ladi-image-background {
+  width: 66.8762px;
+  height: 53.5792px;
+  background-image: url("https://w.ladicdn.com/s400x400/6446a909ce8883001284c7a2/timeline2-20240323075615-ixnxi.png");
+}
+
+#IMAGE1191 > .ladi-image > .ladi-image-background {
+  top: 0px;
+  left: 0px;
+}
+
+/* #IMAGE1191 {
+  opacity: 0 !important;
+  pointer-events: none !important;
+} */
+
+#PARAGRAPH122 > .ladi-paragraph,
+#PARAGRAPH123 > .ladi-paragraph,
+#PARAGRAPH124 > .ladi-paragraph,
+#PARAGRAPH125 > .ladi-paragraph {
+  font-size: 16px;
+  line-height: 1.4;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+#PARAGRAPH122.ladi-animation > .ladi-paragraph,
+#PARAGRAPH123.ladi-animation > .ladi-paragraph,
+#PARAGRAPH124.ladi-animation > .ladi-paragraph,
+#PARAGRAPH125.ladi-animation > .ladi-paragraph {
+  animation-name: fadeInUp;
+  animation-delay: 1.5s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+#PARAGRAPH122,
+#PARAGRAPH123,
+#PARAGRAPH124,
+#PARAGRAPH125 {
+  width: 97px;
+}
+
+#PARAGRAPH122 {
+  top: 0px;
+}
+
+/* #PARAGRAPH122 {
+  opacity: 0 !important;
+  pointer-events: none !important;
+} */
+
+#IMAGE1201 > .ladi-image > .ladi-image-background {
+  background-image: url("https://w.ladicdn.com/s400x400/6446a909ce8883001284c7a2/w31_icon5-20240324143948-l5hxp.png");
+}
+
+#IMAGE1201,
+#IMAGE1201 > .ladi-image > .ladi-image-background,
+#IMAGE1211,
+#IMAGE1211 > .ladi-image > .ladi-image-background {
+  width: 63.1387px;
+  height: 63.1387px;
+}
+
+#IMAGE1211 > .ladi-image > .ladi-image-background {
+  background-image: url("https://w.ladicdn.com/s400x400/6446a909ce8883001284c7a2/timeline3-20240323075615-el-qz.png");
+}
+
+#IMAGE1191.ladi-animation > .ladi-image,
+#IMAGE1201.ladi-animation > .ladi-image,
+#IMAGE1211.ladi-animation > .ladi-image,
+#IMAGE1221.ladi-animation > .ladi-image {
+  animation-name: swing;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#IMAGE120 {
+  top: 0;
+}
+
+#IMAGE120 > .ladi-image > .ladi-image-background {
+  top: 0px;
+  left: 0px;
+}
+
+#LINE28 > .ladi-line > .ladi-line-container {
+  border-right: 1px solid rgb(217, 217, 217);
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+#LINE28.ladi-animation > .ladi-line {
+  animation-name: bounceIn;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+#PARAGRAPH123 {
+  left: 0px;
+}
+
+#LINE29 > .ladi-line > .ladi-line-container {
+  border-right: 1px solid rgb(217, 217, 217);
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+#LINE29.ladi-animation > .ladi-line {
+  animation-name: bounceIn;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+#IMAGE1211 > .ladi-image > .ladi-image-background {
+  top: 0px;
+  left: 0px;
+}
+
+#PARAGRAPH124.ladi-animation > .ladi-paragraph {
+  animation-name: fadeInUp;
+  animation-delay: 1.5s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+#PARAGRAPH124 > .ladi-paragraph {
+  font-size: 16px;
+  line-height: 1.4;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+#PARAGRAPH124 {
+  width: 97px;
+}
+
+#LINE26 > .ladi-line > .ladi-line-container,
+#LINE27 > .ladi-line > .ladi-line-container,
+#LINE28 > .ladi-line > .ladi-line-container,
+#LINE29 > .ladi-line > .ladi-line-container,
+#LINE30 > .ladi-line > .ladi-line-container {
+  border-right: 1px solid rgb(217, 217, 217);
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+@media (min-width: 768px) {
+  #GROUP183 {
+    width: 658.792px;
+    height: 187.849px;
+    top: -26.151px;
+    left: -100.9px;
+  }
+  #LINE26 {
+    width: 625px;
+    top: 82.7497px;
+    left: 16.931px;
+  }
+
+  #LINE26 > .ladi-line {
+    height: 100%;
+    padding: 0px 8px;
+  }
+  #GROUP184 {
+    width: 97px;
+    height: 183.07px;
+  }
+  #LINE27 > .ladi-line {
+    height: 100%;
+    padding: 0px 8px;
+  }
+  #LINE27 > .ladi-line > .ladi-line-container {
+    border-top: 0px !important;
+    border-left: 1px solid rgb(217, 217, 217);
+  }
+  #LINE27 {
+    top: 73.2497px;
+    left: 40px;
+    height: 36px;
+  }
+  #IMAGE1191 {
+    top: 129.49px;
+    left: 16.931px;
+  }
+  #PARAGRAPH122 {
+    left: 0px;
+  }
+  #PARAGRAPH122 {
+    top: -21px;
+  }
+  #GROUP185 {
+    width: 97px;
+    height: 176.849px;
+  }
+
+  #GROUP185 {
+    top: 1.93065px;
+    left: 250.264px;
+  }
+
+  #IMAGE1201 {
+    left: 16.9305px;
+  }
+  #LINE28 {
+    top: 71.3191px;
+    left: 39.9998px;
+  }
+
+  #LINE28 > .ladi-line {
+    height: 100%;
+    padding: 0px 8px;
+  }
+
+  #LINE28 > .ladi-line > .ladi-line-container {
+    border-top: 0px !important;
+    border-left: 1px solid rgb(217, 217, 217);
+  }
+
+  #LINE28 {
+    height: 36px;
+  }
+
+  #PARAGRAPH123 {
+    top: 131.849px;
+  }
+
+  #GROUP186 {
+    width: 97px;
+    height: 176.849px;
+  }
+
+  #GROUP186 {
+    top: 11px;
+    left: 490.528px;
+  }
+
+  #LINE29 {
+    top: 62.2497px;
+    left: 39.9998px;
+  }
+
+  #LINE29 > .ladi-line {
+    height: 100%;
+    padding: 0px 8px;
+  }
+  #LINE29 > .ladi-line > .ladi-line-container {
+    border-top: 0px !important;
+    border-left: 1px solid rgb(217, 217, 217);
+  }
+
+  #LINE29 {
+    height: 36px;
+  }
+  #IMAGE1211 {
+    top: 113.711px;
+    left: 16.9305px;
+  }
+
+  #PARAGRAPH124 {
+    top: -4px;
+    left: 0px;
+  }
+  #LINE26 > .ladi-line > .ladi-line-container {
+    border-top: 1px solid rgb(217, 217, 217);
+    border-left: 0px !important;
+  }
+
+  #LINE26 > .ladi-line {
+    width: 100%;
+    padding: 8px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  #LINE26 > .ladi-line > .ladi-line-container {
+    border-top: 0px !important;
+    border-left: 1px solid rgb(217, 217, 217);
+  }
+  #GROUP183 {
+    width: 219.204px;
+    height: 388.855px;
+    top: -40.685px;
+    left: 63.398px;
+  }
+  #LINE26 {
+    height: 388px;
+    top: 0px;
+    left: 101.102px;
+  }
+
+  #LINE26 > .ladi-line {
+    height: 100%;
+    padding: 0px 8px;
+  }
+  #GROUP184 {
+    width: 219.204px;
+    height: 67px;
+  }
+  #LINE27 > .ladi-line {
+    width: 100%;
+    padding: 8px 0px;
+  }
+
+  #LINE27 > .ladi-line > .ladi-line-container {
+    border-top: 1px solid rgb(217, 217, 217);
+    border-left: 0px !important;
+  }
+  #LINE27 {
+    top: 25.0002px;
+    left: 74.671px;
+    width: 36px;
+  }
+  #IMAGE1191 {
+    top: 6.7104px;
+    left: 0px;
+  }
+
+  #PARAGRAPH122 {
+    left: 122.204px;
+  }
+  #GROUP185 {
+    top: 111.146px;
+    left: 0px;
+  }
+  #GROUP185 {
+    width: 219.204px;
+    height: 63.1387px;
+  }
+  #IMAGE1201 {
+    left: 156.065px;
+  }
+  #LINE28 {
+    top: 23.069px;
+    left: 108.533px;
+  }
+
+  #LINE28 > .ladi-line {
+    width: 100%;
+    padding: 8px 0px;
+  }
+
+  #LINE28 > .ladi-line > .ladi-line-container {
+    border-top: 1px solid rgb(217, 217, 217);
+    border-left: 0px !important;
+  }
+
+  #LINE28 {
+    width: 36px;
+  }
+
+  #PARAGRAPH123 {
+    top: 9.069px;
+  }
+
+  #GROUP186 {
+    top: 218.431px;
+    left: 0px;
+  }
+
+  #GROUP186 {
+    width: 219.204px;
+    height: 63.1387px;
+  }
+
+  #LINE29 {
+    top: 23.0693px;
+    left: 74.6714px;
+  }
+
+  #LINE29 > .ladi-line {
+    width: 100%;
+    padding: 8px 0px;
+  }
+
+  #LINE29 > .ladi-line > .ladi-line-container {
+    border-top: 1px solid rgb(217, 217, 217);
+    border-left: 0px !important;
+  }
+
+  #LINE29 {
+    width: 36px;
+  }
+
+  #IMAGE1211 {
+    top: 0px;
+    left: 0px;
+  }
+
+  #PARAGRAPH124 {
+    top: 9.06935px;
+    left: 122.204px;
+  }
+  #LINE26 > .ladi-line {
+    width: 100%;
+    padding: 8px 0px;
+  }
+}
